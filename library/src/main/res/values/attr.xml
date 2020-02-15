@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DropEditText">
+        <attr name="text" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="maxLength" format="integer" />
+        <attr name="inputType" format="enum">
+            <enum name="text" value="0" />
+            <enum name="number" value="1" />
+        </attr>
+        <attr name="textColor" format="color|reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="digits" format="string" />
+        <attr name="enabled" format="boolean" />
+    </declare-styleable>
+</resources>
